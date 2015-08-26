@@ -61,108 +61,76 @@ Las características de los tipos de diodos más frecuentemente usados se descri
 
 \end{itemize}
 
-Existen muchos otros tipos de diodos aparte de los mencionados anteriormente, tales como diodos láser, diodos térmicos, diodos Zener, entre otros, pero solo quisimos referirnos a los más usados en situaciones comunes (no muy avanzadas) de laboratorio.
+Existen muchos otros tipos de diodos aparte de los mencionados anteriormente, tales como diodos láser, diodos térmicos, diodos Zener, entre otros, pero solo quisimos referirnos a los más usados en situaciones comunes (no muy avanzadas) de laboratorio.\\
 
 OJO - FALTA PONER LO DEL KIT	
 
 \section{Rectificadores de onda completa con diodos}
 
-.
-\\
+Un rectificador de onda completa es un circuito empleado para convertir un corriente alterna de entrada $V_{i}$en una corriente continua de salida $V_{0}$. Este rectificador, la parte negativa de la señal se convierte en positiva o la parte positiva de la señal se convierte en negativa, dependiendo de qué tipo de señal continua se requiera.\\
 
+En la figura \ref{fig: rectificador} se ilustra la forma de montar un circuito con dos diodos, una resistencia y una bobina, para hacer un rectificador de onda completa.\\
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{rectificador}
+	\caption{Circuito para hacer un rectificador.}
+	\label{fig: rectificador}
+\end{figure}
 
-\section{Mediciones con voltímetro}
+Los dos circuitos equivalentes que se obtienen cuando la fuente de voltaje toma valores positivos y negativos se muestran en las figuras \ref{fig: fuente positiva} y \ref{fig: fuente negativa} respectivamente. \\
 
-Para medir voltajes se debe de conectar el multímetro a los extremos de los componentes que se desean medir. La siguiente imagen muestra cómo hacerlo.
-\\ 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{positiva}
+	\caption{Circuito para la fuente de voltaje con valor positivo.}
+	\label{fig: fuente positiva}
+\end{figure}
 
-
-Análogamente, para medir corrientes el multímetro debe ubicarse en el paso de la corriente que se desea medir, tal como lo ilustra la siguiente figura.
-\\ 
-
-
-\section{Osciloscopio}
-Un osciloscopio es un aparato que sirve para medir y visualizar las señales de salida de un circuito. Su interfaz gráfica permite el análisis cualitativo y facilita la toma de diversos datos en la dinámica del circuito estudiado. El osciloscopio que usaremos es de marca Tektronix, de la serie TDS 210. En la siguiente figura se puede apreciar el panel frontal del osciloscopio, el cual se compone de una pantalla y una serie de botones, perillas y entradas cuya función explicaremos más adelante.\\
-
-
-Los comandos del osciloscopio están organizados por funciones. Los botones cercanos a la pantalla permiten navegar por diversas opciones e interactuar con la interfaz gráfica del osciloscopio. Los botones de la parte superior permiten seleccionar diferentes menús y controlar la señal de entrada. Por otra parte, hay grupos de comandos que permiten mover y modificar los cursores en la pantalla. Estos cursores se usan principalmente para seleccionar un punto específico de la señal en la pantalla. Además de estos, hay un grupo de comandos que sirven para modificar el trigger, el cual permite controlar el muestreo de las señales periódicas. En la siguiente figura se puede apreciar el grupo de controladores verticales del cursor.\\
-
-
-Donde los comandos tienen las siguientes funciones:
-\begin{itemize}
-	\item \textbf{Position:} Controla la posición vertical del cursor o del canal. 
-	\item \textbf{CH Menu:} Muestra el menú de entrada de canal y permite mostrar o quitar la señal de dicho canal.
-	\item \textbf{Math Menu:} Muestra el menu de operaciones matemáticas para las señales.
-	\item \textbf{Volts/Div:} Permite modificar las escalas en las que se muestran la señal en el eje vertical.
-
-\end{itemize}
-
-En la siguiente figura se muestra por su parte, el grupo de controladores horizontales.
-
-
-Donde los comandos tienen las siguientes funciones:
-\begin{itemize}
-	\item \textbf{Position:} Controla la posición horizontal de todos los canales.
-	\item \textbf{Horizontal Menu:} Muestra el menu de medida horizontal.
-	\item \textbf{Sec/Div:} Permite modificar las escalas en las que se muestran la señal en el eje horizontal.
-\end{itemize}
-
-Los controladores de trigger se muestran en la siguiente figura 10. Allí los comandos tienen las siguientes funciones:
-
-\begin{itemize}
-	\item \textbf{Level-Holdoff:} En el modo Level, modifica la amplitud que tiene que cruzar la señal para causar una adquisición. En modo Holdoff, selecciona el tiempo antes de que otro trigger pueda ser aceptado.
-	\item \textbf{Trigger Menu:} Muestra el menu de trigger.
-	\item \textbf{Set Level to 50\%:} Modifica el nivel del trigger al 50\% del nivel de la señal.
-	\item \textbf{Force Trigger:} Empieza la adquisición sin importar si la amplitud de la señal supera el trigger.
-	\item \textbf{Trigger View:} Muestra el trigger.
-\end{itemize}
-
-En la figura 11 se pueden ver los comandos de control general. \\
-
-
-Estos tienen las siguientes funciones:
-
-\begin{itemize}
-	\item \textbf{Save/Recall:} Muestra el menú para salvar y cargar señales.
-	\item \textbf{Measure:} Muestra el menú de medidas.
-	\item \textbf{Acquire:} Muestra el menú de adquisición de la señal.
-	\item \textbf{Cursor:} Muestra el menú de cursores donde se permite controlar qué cursor se mueve con los paneles de comandos horizontales y verticales.
-	\item \textbf{Utility:} Muestra el menú de utilidades.
-	\item \textbf{Autoset:} Selecciona automáticamente los parámetros para mostrar una señal útil. (No siempre funciona)
-	\item \textbf{Hardcopy:} Se usa para imprimir. Necesita una impresora especial conectada al dispositivo.
-	\item \textbf{Run/Stop:} Empieza o termina el muestreo.\\
-\\
-Entre otras opciones la función Measure permite hacer diversas medidas de la señal analizada. En el osciloscopio con el que trabajaremos podremos medir el voltaje rms en un ciclo, el voltaje medio, el voltaje pico-pico, el periodo y la frecuencia de la señal analizada.
-
-\end{itemize}
-
-
-\section{Generador de señales}
-Un generador de señales es una fuente de potencial que permite generar voltajes de forma sinusoidal, cuadrada o triangular. Este dispositivo permite también modificar la frecuencia y la amplitud de estas señales. En el laboratorio utilizaremos un generador marca Tektronix de la serie CFG253. En la siguiente figura se puede ver una fotografía de la parte frontal de dos de estos generadores.\\
-
-En la figura 13 se ve un diagrama claro de los comandos de este dispositivo. Aquí las funciones son las siguientes:
-
-\begin{itemize}
-	\item \textbf{1:} Muestra si el dispositivo está encendido o apagado.
-	\item \textbf{2:} Determina la amplitud de la señal que sale por el cable principal (main).
-	\item \textbf{3:} Sirve para controlar la aplitud DC de la señal y su polaridad.
-	\item \textbf{4:} Controla la simetría vertical de la señal generada.
-	\item \textbf{5:} Determina el rango en que se va a modificar la frecuencia de la señal que sale por el cable principal.
-	\item \textbf{6:} Selecciona la forma de la onda de salida: sinusoidal, cuadrada o triangular.
-	\item \textbf{7:} Modifica la frecuencia en el rango determindo por (5).
-	\item \textbf{8:} Ajusta la amplitud de barrido de la señal.
-	\item \textbf{9:} Ajusta la frecuencia del generador de barrido interno.
-	\item \textbf{10:} Activa las opciones (8) y (9).
-	\item \textbf{11:} Divide la frecuencia de la señal de salida por 10 y permite ajustar la simetría de la señal con (4).
-	\item \textbf{12:} Permite variar el rango en el que se controla la amplitud del voltaje pico-pico de la señal.
-
-
-
-
-\end{itemize}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{negativa}
+	\caption{Circuito para la fuente de voltaje con valor negativo.}
+	\label{fig: fuente negativa}
+\end{figure}
 	
+OJO - FALTA PONER LO DELKIT Y LAS GRÁFICAS, TODO LO SAQUÉ DE WIKIPEDIA ASÍ QUE DEBE ESTAR AHÍ. CLARAMENTE HAY QUE CUADRAR LAS IMÁGENES CUANDO USTED PONGA LO QUE FALTA\\\\\\
+
+\section{Transistores}
+
+Un transistor es un tipo de elemento electrónico semiconductor utilizado para amplificar y "voltear" (dar una respuesta a) señales electrónicas. Se compone de un material semiconductor con por lo menos tres terminales para su conexión a un circuito externo. Un voltaje (o una corriente) aplicado a uno de los terminales cambia la corriente a través de las terminales restantes. Dado que la potencia de salida puede ser mayor que la potencia de entrada, un transistor puede amplificar una señal.
+
+A continuación se describen los principales tipos de conductores.
+
+\begin{itemize}
+	\item \textbf{Transistores de juntura bipolar (BJT):} Este tipo de transistores se construye sobre monocristales de materiales seminconductores como el germanio, el silicio o el arseniuro de galio. El cristal se dopa de forma muy controlada en tres zonas precisas, n-p-n o p-n-p, dando lugar a dos junturas p-n. La latra del medio siempre corresponde a la base y las otras dos al emisor y al colector, qeu si bien son del mismo tipo y de signo contrario a la base, tienen diferente contaminación entre ellas dado que típicamente el emisor está mucho más dopado que el colector.\\
 	
+	En un transistor n-p-n, la juntura emisor-base actúa de tal forma que los electrones son inyectados en la zona de la base. Dado que la base es angosta, la mayoría de los electrones se dispersan de la juntura y son trasladados al colector, mientras que una pequeña parte de los mismos se recombina en la base para dar origen a la corriente de base. Controlando el número de electrones que abandonan la base, el número de electrones que entra al colector puede ser controlada. \\
+	
+	En la figura \ref{fig: transistor1} se puede apreciar uno de estos transistores.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.25\textwidth]{transistor1}
+		\caption{Ejemplo de un transistor BJT.}
+		\label{fig: transistor1}
+	\end{figure}
+	
+	\item \textbf{Transistores de efecto campo:} Estos transistores usan electrones o huecos para la conducción. Se caracterizan por tener cuatro terminales denominados denominados source, gate, drain y body, donde típicamente, el body está conectado al source.\\
+	
+	En estos transistores, la corriente fluye a través de un canal que conecta al drain con la source. La conductividad se varía mediante un campo eléctrico producido cuando se aplica una diferencia de potencial entre las terminales gate y source, por tanto, la corriente qeu fluye entre la drain y la source es controlada por la diferencia de potencial entre las terminales mencionadas previamente.\\
+	
+	En la figura \ref{fig: transistor2} se puede apreciar uno de estos transistores.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.25\textwidth]{transistor2}
+		\caption{Ejemplo de un transistor de efecto campo.}
+		\label{fig: transistor2}
+	\end{figure}
+	 
+\end{itemize}
+
 \end{document}
 
 

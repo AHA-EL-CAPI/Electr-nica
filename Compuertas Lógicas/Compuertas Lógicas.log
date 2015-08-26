@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  25 AUG 2015 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.10)  25 AUG 2015 23:48
 entering extended mode
 **"Compuertas Lógicas.tex"
 ("Compuertas Lógicas.tex"
@@ -410,27 +410,84 @@ e otros, pero solo quisi-mos referirnos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+<rectificador.png, id=16, 215.80624pt x 136.51pt>
+File: rectificador.png Graphic file (type png)
+ <use rectificador.png>
+Package pdftex.def Info: rectificador.png used on input line 76.
+(pdftex.def)             Requested size: 250.95587pt x 158.74954pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+<positiva.png, id=18, 215.80624pt x 136.51pt>
+File: positiva.png Graphic file (type png)
+ <use positiva.png>
+Package pdftex.def Info: positiva.png used on input line 85.
+(pdftex.def)             Requested size: 250.95587pt x 158.74954pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<negativa.png, id=19, 215.80624pt x 136.51pt>
+File: negativa.png Graphic file (type png)
+ <use negativa.png>
+Package pdftex.def Info: negativa.png used on input line 92.
+(pdftex.def)             Requested size: 250.95587pt x 158.74954pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+[4 <./rectificador.png> <./positiva.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+<transistor1.jpg, id=31, 225.84375pt x 225.84375pt>
+File: transistor1.jpg Graphic file (type jpg)
+ <use transistor1.jpg>
+Package pdftex.def Info: transistor1.jpg used on input line 114.
+(pdftex.def)             Requested size: 104.56389pt x 104.5648pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
@@ -439,36 +496,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-[5] [6] ("Compuertas Lógicas.aux") ) 
+[5 <./negativa.png> <./transistor1.jpg>]
+<transistor2.jpg, id=36, 160.6pt x 160.6pt>
+File: transistor2.jpg Graphic file (type jpg)
+ <use transistor2.jpg>
+Package pdftex.def Info: transistor2.jpg used on input line 127.
+(pdftex.def)             Requested size: 104.56389pt x 104.56764pt.
+ [6 <./transistor2.jpg>] ("Compuertas Lógicas.aux") ) 
 Here is how much of TeX's memory you used:
- 2828 strings out of 493673
- 43411 string characters out of 3141542
- 163951 words of memory out of 3000000
- 6178 multiletter control sequences out of 15000+200000
+ 2861 strings out of 493673
+ 43979 string characters out of 3141542
+ 164991 words of memory out of 3000000
+ 6206 multiletter control sequences out of 15000+200000
  9253 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,7n,46p,888b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmtt9.pfb>
-Output written on "Compuertas Lógicas.pdf" (6 pages, 264411 bytes).
+ 41i,7n,46p,888b,292s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt9.pfb>
+Output written on "Compuertas Lógicas.pdf" (6 pages, 286516 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
