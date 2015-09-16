@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  15 SEP 2015 10:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  15 SEP 2015 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Amplificadores Operacionales.tex"
 (./Amplificadores Operacionales.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 4 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex4/revtex4.cls
 Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
 cumentation)
@@ -411,60 +411,38 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2014/01/29 v5.0m Spanish support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
-\babel@savecnt=\count106
-\U@D=\dimen115
-)
-\es@datefmt=\count107
-\es@quottoks=\toks26
-\es@quotdepth=\count108
-Package babel Info: Making " an active character on input line 496.
-Package babel Info: Making . an active character on input line 599.
-Package babel Info: Making < an active character on input line 644.
-Package babel Info: Making > an active character on input line 644.
-))
-(./Amplificadores Operacionales.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-)
+(./Amplificadores Operacionales.aux)
 \openout1 = `"Amplificadores Operacionales.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-Class revtex4 Info: Patching array package. on input line 38.
-Class revtex4 Info: cite was not loaded (OK!) on input line 38.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+Class revtex4 Info: Patching array package. on input line 37.
+Class revtex4 Info: cite was not loaded (OK!) on input line 37.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen116
+\scratchcounter=\count106
+\scratchdimen=\dimen115
 \scratchbox=\box36
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen117
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks28
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen116
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -513,94 +491,193 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \. on input line 38.
-LaTeX Info: Redefining \% on input line 38.
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
   
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 59.
+LaTeX Font Info:    Try loading font information for U+msa on input line 58.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 59.
+LaTeX Font Info:    Try loading font information for U+msb on input line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
 \@endnoteout=\write3
 \openout3 = `"Amplificadores Operacionales.end"'.
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+
 <amplificador.png, id=1, 401.5pt x 301.125pt>
 File: amplificador.png Graphic file (type png)
  <use amplificador.png>
-Package pdftex.def Info: amplificador.png used on input line 72.
+Package pdftex.def Info: amplificador.png used on input line 71.
 (pdftex.def)             Requested size: 255.0pt x 191.25359pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./amplificador.png>]
-<resistencia.png, id=17, 1003.75pt x 501.875pt>
+<resistencia.png, id=19, 1003.75pt x 501.875pt>
 File: resistencia.png Graphic file (type png)
  <use resistencia.png>
-Package pdftex.def Info: resistencia.png used on input line 100.
+Package pdftex.def Info: resistencia.png used on input line 99.
 (pdftex.def)             Requested size: 117.81046pt x 100.7944pt.
 
-<condensador.jpg, id=18, 225.84375pt x 225.84375pt>
+<condensador.jpg, id=20, 225.84375pt x 225.84375pt>
 File: condensador.jpg Graphic file (type jpg)
  <use condensador.jpg>
-Package pdftex.def Info: condensador.jpg used on input line 106.
+Package pdftex.def Info: condensador.jpg used on input line 105.
 (pdftex.def)             Requested size: 117.81158pt x 100.79823pt.
 
-<inductancia.png, id=19, 316.0608pt x 227.4096pt>
+<inductancia.png, id=21, 316.0608pt x 227.4096pt>
 File: inductancia.png Graphic file (type png)
  <use inductancia.png>
-Package pdftex.def Info: inductancia.png used on input line 112.
+Package pdftex.def Info: inductancia.png used on input line 111.
 (pdftex.def)             Requested size: 117.80875pt x 100.79616pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 [2 <./resistencia.png> <./condensador.jpg> <./inductancia.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+<low.png, id=27, 301.125pt x 208.78pt>
+File: low.png Graphic file (type png)
+ <use low.png>
+Package pdftex.def Info: low.png used on input line 171.
+(pdftex.def)             Requested size: 255.0pt x 176.80756pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+<high.png, id=28, 278.54062pt x 140.02313pt>
+File: high.png Graphic file (type png)
+ <use high.png>
+Package pdftex.def Info: high.png used on input line 187.
+(pdftex.def)             Requested size: 255.0pt x 128.19254pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+[3 <./low.png>] <band.png, id=35, 343.2825pt x 206.7725pt>
+File: band.png Graphic file (type png)
+ <use band.png>
+Package pdftex.def Info: band.png used on input line 202.
+(pdftex.def)             Requested size: 255.0pt x 153.59608pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+[4 <./high.png> <./band.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
@@ -614,32 +691,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-) [3] (./Amplificadores Operacionales.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-) ) 
+) [5] (./Amplificadores Operacionales.aux) ) 
 Here is how much of TeX's memory you used:
- 5013 strings out of 493304
- 63659 string characters out of 6139871
- 147057 words of memory out of 5000000
- 8372 multiletter control sequences out of 15000+600000
+ 4349 strings out of 494985
+ 55432 string characters out of 6180356
+ 128560 words of memory out of 5000000
+ 7472 multiletter control sequences out of 15000+600000
  14161 words of font info for 53 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 38i,7n,28p,497b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmtt9.pfb>
-Output written on "Amplificadores Operacionales.pdf" (3 pages, 346146 bytes).
+ 36 hyphenation exceptions out of 8191
+ 37i,7n,28p,1006b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt9.pfb>
+Output written on "Amplificadores Operacionales.pdf" (5 pages, 411873 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
