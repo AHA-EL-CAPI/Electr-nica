@@ -1,8 +1,0 @@
-\beamer@endinputifotherversion {3.24pt}
-\beamer@sectionintoc {1}{\IeC {\textquestiondown }Qu\IeC {\'e} es el circuito de Chua?}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Definici\IeC {\'o}n}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Comportamiento ca\IeC {\'o}tico}{3}{0}{1}
-\beamer@sectionintoc {2}{Simulaciones}{3}{0}{2}
-\beamer@subsectionintoc {2}{1}{Zonas de comportamiento ca\IeC {\'o}tico}{3}{0}{2}
-\beamer@sectionintoc {3}{Montaje experimental}{3}{0}{3}
-\beamer@subsectionintoc {3}{1}{Elementos electr\IeC {\'o}nicos usados}{3}{0}{3}

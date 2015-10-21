@@ -31,7 +31,6 @@
 \usepackage{bm}% bold math
 \usepackage[utf8]{inputenc}
 \usepackage{url}
-\usepackage[spanish,es-tabla]{babel}
 \newcommand{\nextitem}{\par\hspace*{\labelsep}\textbullet\hspace*{\labelsep}}
 %\nofiles
 
@@ -164,8 +163,66 @@ Con respecto a las aplicaciones de dichos filtros, cabe mencionar que los filtro
 
 Los filtros tanto activos como pasivos también se usan para aumentar o atenuar frecuencias en circuitos de audio, generadores electrónicos de música, instrumentos sísmicos y circuitos de comunicaciones. Además, en ámbitos experimentales o de laboatorio, son utilizados para estudiar señales de ondas cerebrales y vibraciones mecánicas.\\
 
+<<<<<<< HEAD
 \section{Tipos de filtros ativos}
 
+=======
+\section{Filtros pasa bajas}
+Un filtro activo pasa bajas es un filtro que amplifica las señales con frecuencia baja, mientras que reduce las señales con frecuencias altas. Un montaje de circuito pasa bajas activo se muestra en la siguiente figura.\\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.5\textwidth]{low}
+  \caption{Filtro activo pasa bajas}
+  \label{fig:pasabajas}
+\end{figure}
+
+Cualitativamente lo que está pasando en el circuito de la anterior figura es que a frecuencias bajas, con periodos mucho más altos que el tiempo de carga característico del condensador, dicho elemento se alcanza a cargar considerablemente. Cuando el capacitor se carga funciona aproximadamente como un interruptor abierto, dejando pasar corriente por la resistencia $R_2$. En este caso, tendríamos una ganancia dada por $\frac{R_2}{R_1}$, como un amplificador normal. En el caso de frecuencias altas, con periodos mucho más bajos que el tiempo característico del condensador, dicho elemento no se alcanza a cargar. Dado que un capacitor cargado funciona aproximadamente como un corto circuito, la corriente tendería a fluir por allí con resistencia nula, en vez  de pasar por $R_2$. En este caso, tendríamos un amplificador normal con $R'_2 = 0$, por lo que la ganancia estaría dada por $0$, es decir, no deja pasar señales con frecuencias altas.\\
+
+Cabe resaltar que hay una transición suave entre frecuencias altas y bajas que no describimos aquí, pero que podemos asumir. En un filtro ideal, esta transición sería empinada como una función Heaviside.\\
+
+Con esta explicación podemos concluir que en este circuito las resistencias $R_1$ y $R_2$ actúan como amplificadoras definiendo la ganancia y además el tiempo característico del capacitor ($\tau = R_2C$), mientras que el capacitor es la parte funcional del filtro que deja pasar señales con frecuencia baja ($\omega < \omega_C = \frac{1}{R_2C}$).\\
+
+\section{Filtros pasa altas}
+Un filtro pasa altas, análogamente a un cricuito pasa bajas, amplifica las señales de frecuencias altas y reduce las señales de frecuencias bajas. En la siguiente figura se muestra un filtro activo pasa altas.\\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.5\textwidth]{high}
+  \caption{Filtro activo pasa altas}
+  \label{fig: pasaaltas}
+\end{figure}
+
+Cualitativamente lo que pasa en este circuito es lo siguiente: A frecuencias altas, con periodos mucho más bajos que el tiempo característico del condensador, el capacitor al lado de la resistencia $R_1$ no se alcanza a cargar mucho, por lo que se podría tomar como un corto circuito. En este caso lo que se tiene es un amplificador normal con ganancia dada por $\frac{R_2}{R_1}$. Por otra parte, a frecuencias bajas, con periodos mucho más altos que el tiempo característico del condensador, el capacitor se alcanza a cargar, comportándose así como un interruptor abierto. En este caso, dado que "abrimos" el circuito, el voltaje de salida será nulo (o casi nulo) y la ganancia será $0$.\\
+
+
+En este caso, podemos afirmar lo mismo que afirmamos anteriormente. Las resistencias actúan como amplificadoras definiendo la ganancia y además el tiempo característico del capacitor ($\tau = R_1C$), mientras que el capacitor es la parte funcional del filtro, el cual deja pasar señales con frecuencias altas ($\omega > \omega_C = \frac{1}{R_1C}$).\\
+
+\section{Filtros pasa bandas}
+Un filtro pasabandas, como su nombre lo dice, amplifica señales con frecuencia en una banda. En otras palabras, este filtro amplifica todas las señales con frecuencia mayor a cierto valor límite inferior, y menor a cierto valor límite superior. Un filtro pasa bandas activo se muestra en la siguiente figura.\\
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=.5\textwidth]{band}
+  \caption{Filtro activo pasa bandas}
+  \label{fig: pasabandas}
+\end{figure}
+
+En este claramente se puede observar que su parte izquierda es análoga a un circuito pasa altas, mientras su parte derecha es análoga al circuito pasa bajas. Claramente consiste de un amplificador pasa altas acoplado a un amplificador pasa bajas. En este caso no es necesario explicar como funciona, dado que el efecto es la conjunción de los dos efectos pasa bajas y altas, que ya de por sí son muy análogos entre ellos.\\
+
+En este caso claramente podemos identificar las resistencias como amplificadoras que definen la ganancia y los tiempos característicos límites de los capacitores ($\tau_1 = R_1C_1$, $\tau_2 = R_2C_2$), los cuales serán la parte funcional del filtro al dejar pasar las señales con frecuencias en la banda. El capacitor $C_2$ deja pasar solo señales con altas frecuencias ($\omega > \frac{1}{\tau_2}$), mientras el capacitor $C_1$ deja pasar solo señales con bajas frecuencias ($\omega < \frac{1}{\tau_1}$). En este sentido, ambos capacitores actuando en conjunto nos determinan la banda de frecuencias que pueden pasar amplificadas ($\frac{1}{\tau_1} > \omega > \frac{1}{\tau_2}$). Claramente, la ganancia de amplificación está dada por $\frac{R_1}{R_2}$. \\
+
+Claramente se requiere $\tau_2 > \tau_1$, ya que de otra manera, la desigualdad definiría una banda vacía.\\
+
+\section{Planeación}
+Para este laboratorio planeamos hacer al menos los filtros pasa altas y pasa bajas. Para esto utilizaremos un amplificador operacional de referencia LM358P. A este amplificador lo alimentaremos con una fuente de voltaje DC entre 10 y 12 voltios, al igual que hicimos en el anterior laboratorio.\\
+
+Además de esto, usaremos resistencias que ya sabemos que van de la mano con este amplificador, las cuales son de $15k\Omega$ y de $1.5k\Omega$. En principio crearemos el filtro con ganancia 0.1 o 1, dado que ya vimos que usar ganancia 10 puede superar los límites aceptados por el osciloscopio. Si necesitamos una ganancia diferente podemos jugar con estas resistencias en serie para crear números decimales, después de todo, son las más numerosas en nuestro kit.\\
+
+En cuanto a los capacitores usaremos capacitores 334 ($330n F$). Si queremos hacer el circuito pasabandas podemos jugar con estos capacitores en paralelo para no confundirse con los límites de la banda. En general, estos capacitores con las resistencias mencionadas producen pares RC con tiempos característicos de $\frac{1}{RC} \approx (200-2000) Hz$, lo cual es un rango aceptable según la ficha técnica del amplificador.\\
+
+En cuanto al voltaje de entrada, será AC claramente, y procuraremos mantenerlo alrededor de los 5V, ya que, por experiencia, es un voltaje de entrada que va de la mano con el amplificador operacional a utilizar y las resistencias mencionadas. Si es el caso, podremos subirlo un poco por los efectos del capacitor que posiblemente atenue un poco la señal. El capacitor se comporta como circuito abierto o corto circuito en el límite $t\rightarrow\infty$, lo cual nunca sucede.\\
+>>>>>>> 334dbc4630ecb3e3f41199bd2d7883d55b8fce00
 
 \begin{thebibliography}{99}
 \
