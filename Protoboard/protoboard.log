@@ -1,98 +1,32 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.10)  12 AUG 2015 00:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  29 OCT 2015 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **protoboard.tex
 (./protoboard.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 4 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
-
-Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
-                  Copyright (C) Markus Kohm
-
-))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
-)
-Package tocbasic Info: omitting babel extension for `toc'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 115.
-Package tocbasic Info: omitting babel extension for `lof'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 116.
-Package tocbasic Info: omitting babel extension for `lot'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 117.
-Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 153
-1.
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
-)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
-
-Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
-                  Copyright (C) Frank Neukam, 1992-1994
-                  Copyright (C) Markus Kohm, 1994-
-
-\ta@bcor=\skip41
-\ta@div=\count79
-\ta@hblk=\skip42
-\ta@vblk=\skip43
-\ta@temp=\skip44
-\footheight=\skip45
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1330.
-)
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\abovecaptionskip=\skip46
-\belowcaptionskip=\skip47
-\c@pti@nb@sid@b@x=\box26
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -309,6 +243,10 @@ Now handling font encoding U ...
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -329,7 +267,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count88
+\Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -337,31 +275,31 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (./protoboard.aux)
 \openout1 = `protoboard.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count89
+\scratchcounter=\count88
 \scratchdimen=\dimen105
-\scratchbox=\box27
-\nofMPsegments=\count90
-\nofMParguments=\count91
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count92
+\MPscratchCnt=\count91
 \MPscratchDim=\dimen106
-\MPnumerator=\count93
-\makeMPintoPDFobject=\count94
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
 \everyMPtoPDFconversion=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -411,177 +349,5 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
- []
-
-<protoboard.jpg, id=1, 321.2pt x 121.45375pt>
-File: protoboard.jpg Graphic file (type jpg)
- <use protoboard.jpg>
-Package pdftex.def Info: protoboard.jpg used on input line 42.
-(pdftex.def)             Requested size: 250.95587pt x 94.89474pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 49.
- [1
-
-
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./protoboard.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
-
- []
-
-<serie.jpg, id=13, 2569.6pt x 1927.2pt>
-File: serie.jpg Graphic file (type jpg)
- <use serie.jpg>
-Package pdftex.def Info: serie.jpg used on input line 62.
-(pdftex.def)             Requested size: 167.26512pt x 101.27655pt.
-
-<paralelo.jpg, id=14, 2569.6pt x 1927.2pt>
-File: paralelo.jpg Graphic file (type jpg)
- <use paralelo.jpg>
-Package pdftex.def Info: paralelo.jpg used on input line 68.
-(pdftex.def)             Requested size: 167.26512pt x 101.27655pt.
-
-<mixto.jpg, id=15, 2569.6pt x 1927.2pt>
-File: mixto.jpg Graphic file (type jpg)
- <use mixto.jpg>
-Package pdftex.def Info: mixto.jpg used on input line 74.
-(pdftex.def)             Requested size: 167.26512pt x 101.27655pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-[2 <./serie.jpg> <./paralelo.jpg> <./mixto.jpg>]
-<voltaje.png, id=19, 261.97874pt x 153.57375pt>
-File: voltaje.png Graphic file (type png)
- <use voltaje.png>
-Package pdftex.def Info: voltaje.png used on input line 85.
-(pdftex.def)             Requested size: 250.96107pt x 148.95932pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
-
- []
-
-<corriente.png, id=20, 349.305pt x 256.70906pt>
-File: corriente.png Graphic file (type png)
- <use corriente.png>
-Package pdftex.def Info: corriente.png used on input line 94.
-(pdftex.def)             Requested size: 250.96107pt x 148.9501pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-[3 <./voltaje.png> <./corriente.png>]
-<osciloscopio.jpg, id=24, 1084.05pt x 610.28pt>
-File: osciloscopio.jpg Graphic file (type jpg)
- <use osciloscopio.jpg>
-Package pdftex.def Info: osciloscopio.jpg used on input line 103.
-(pdftex.def)             Requested size: 250.9473pt x 148.9472pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-<Osci-vertical.png, id=25, 362.85562pt x 409.53pt>
-File: Osci-vertical.png Graphic file (type png)
- <use Osci-vertical.png>
-Package pdftex.def Info: Osci-vertical.png used on input line 111.
-(pdftex.def)             Requested size: 125.47876pt x 148.94917pt.
-
-[4 <./osciloscopio.jpg> <./Osci-vertical.png>]
-<osc-horizontal.png, id=29, 284.56313pt x 494.59781pt>
-File: osc-horizontal.png Graphic file (type png)
-
-<use osc-horizontal.png>
-Package pdftex.def Info: osc-horizontal.png used on input line 128.
-(pdftex.def)             Requested size: 125.47736pt x 148.9465pt.
- <osc-trigger.png, id=30, 237.13594pt x 563.85657pt>
-File: osc-trigger.png Graphic file (type png)
-
-<use osc-trigger.png>
-Package pdftex.def Info: osc-trigger.png used on input line 151.
-(pdftex.def)             Requested size: 83.65012pt x 208.53763pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
- []
-
-<osc-control.png, id=31, 976.39781pt x 248.42813pt>
-File: osc-control.png Graphic file (type png)
- <use osc-control.png>
-Package pdftex.def Info: osc-control.png used on input line 159.
-(pdftex.def)             Requested size: 250.95221pt x 148.95189pt.
-
-[5 <./osc-horizontal.png>] [6 <./osc-trigger.png> <./osc-control.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-<generador.jpg, id=38, 1084.05pt x 610.28pt>
-File: generador.jpg Graphic file (type jpg)
- <use generador.jpg>
-Package pdftex.def Info: generador.jpg used on input line 186.
-(pdftex.def)             Requested size: 250.9473pt x 148.9472pt.
- [7 <./generador.jpg>] <Generador-Funciones.png, id=43, 705.38531pt x 343.2825p
-t>
-File: Generador-Funciones.png Graphic file (type png)
-
-<use Generador-Funciones.png>
-Package pdftex.def Info: Generador-Funciones.png used on input line 208.
-(pdftex.def)             Requested size: 250.95708pt x 148.94952pt.
- [8 <./Generador-Funciones.png>] (./protoboard.aux) ) 
-Here is how much of TeX's memory you used:
- 3001 strings out of 494985
- 45974 string characters out of 6180356
- 144969 words of memory out of 5000000
- 6184 multiletter control sequences out of 15000+600000
- 7071 words of font info for 26 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 46i,7n,38p,771b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt9.pfb>
-Output written on protoboard.pdf (8 pages, 2966076 bytes).
-PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+!pdfTeX error: pdflatex (file ./protoboard.pdf): reading image file failed
+ ==> Fatal error occurred, no output PDF file produced!

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  20 OCT 2015 23:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.30)  4 NOV 2015 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,7 +1141,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
 Package rerunfilecheck Info: File `presentation_1.out' has not changed.
-(rerunfilecheck)             Checksum: 27FD4B623C129EAEC00FFE6E5AC6EA9F;471.
+(rerunfilecheck)             Checksum: 3A47C24D44D554ADAB57747361078BD2;462.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1150,10 +1150,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 16082 strings out of 493304
- 298328 string characters out of 6139871
- 373334 words of memory out of 5000000
- 19106 multiletter control sequences out of 15000+600000
+ 16081 strings out of 493304
+ 298320 string characters out of 6139871
+ 373280 words of memory out of 5000000
+ 19105 multiletter control sequences out of 15000+600000
  11996 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,16n,66p,403b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1168,7 +1168,7 @@ e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt10.pfb>
-Output written on presentation_1.pdf (10 pages, 135568 bytes).
+Output written on presentation_1.pdf (10 pages, 135523 bytes).
 PDF statistics:
  392 PDF objects out of 1000 (max. 8388607)
  348 compressed objects within 4 object streams
